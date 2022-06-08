@@ -1,0 +1,113 @@
+Default Assumptions
+Until *proven* otherwise, 
+- the author is a regular individual
+- the tweet IS relevant.
+
+________________________________
+Sentiment Analysis
+_____
+
+RELEVANCE: 
+This tweet is about:
+a) the situation of Afgha refugees,
+   esp. post-US withdrawal from Afgh.;
+b) the author's situation/emotions, 
+   given a.
+
+SENTIMENT
+What is:
+- the general emotional tone;
+- the emotion that the tweet is
+  designed to elicit from the reader.
+
+SENTIMENT CODES
+sad (includes grief, depression), angry, fear (includes anxiety), 
+disgust (includes irritated, frustrated, contempt; incl. generally neg - Ann),
+surprise,
+happy (incl. enjoyment, generally pos, excited), 
+hopeful (envisions better), 
+plea (request or demand for change or $, 
+   may be strongly implied),
+neutral (relevant, but next sentence 
+   could logically be either "And that is good" or "And that is bad"), 
+na, ?
+
+
+NOTES:
+For all emotions: strongly implied is good enough
+emoji trumps text
+ALL CAPS != Neutral
+spool of thread: continuing a conversation
+fear and plea are often similar (Ann)
+_________________________
+Stance Analysis
+_____
+RELEVANCE / ISSUE
+This tweet takes a position on:
+- "I accept Afghani refugees in my 
+  home [destination] country, esp. in 
+  the wake of the US withdrawal from 
+  Afghanistan."
+
+STANCE CODES
+Agree (supportive), Disagree, 
+Refugee (and those Afghani citizens not trying
+to leave - Ann),
+Neutral (relevant but no position taken), 
+na, ?
+
+If a country is referred to, assume that it is
+their home country unless indicated otherwise.
+ 
+_______________________________
+Remaining Questions
+_____
+- tweets about the everyday lives of already 
+  resettled refugees are not relevant.
+    Ex: "Afghan Refugee kid educated in Iran wins this year's Mathematics Olympiad for Iranian students"
+- What about tweets that are clearly
+  strongly emotional but it is entirely
+  unknowable if it is happy or angry
+  without context?
+    Ex: "There are no asylum seekers here!#Afghanistan" (modded)
+- What about tweets that are clearly
+  relevant and emotional, but the stance
+  is entirely unknowable w/o context?
+    Ex: "Tell that to the female Afghan refugee that wants to get an abortion in Texas after she was raped"
+- There is no hope in this dataset.
+  Do I mention that in my writeup, or 
+  just not do that section without 
+  mentioning it?
+_______________________________
+
+TERMS
+GQP = far right GOP (Q-anon supporters?)
+IRC = Internatl Red Cross
+UNHCR = UN Refugee Agency
+IDP = internally displaced person
+#wato = what are the odds
+TL/DR = too long, didn't read
+  - usually indicates that the tweet is 
+     a summary of a longer text
+Brussels: headquarters of the EU, often
+  used as shorthand fof EU governemnt
+
+
+
+Movies and shows
+
+New sources
+#news, #worldnews, #internationalnews
+breaking:
+report:
+
+"subscription"
+"job posting" 3
+"afghan whigs"
+"sign the petition"
+
+______________________________________
+Creating the Coding Guide:
+
+Section 1: Coding Instructions
+Section 2: Coding Table (code, description, example)
