@@ -1,0 +1,11 @@
+# git config --global core.excludesfile ~/.gitignore_global
+
+# Ignore old code and data
+archiveCode
+archiveData
+
+# Ignore large data folders
+# NOTE: does not ignore the labeled data setsdata
+dataBert
+dataVader
+
