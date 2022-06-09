@@ -9,3 +9,10 @@ archiveData/
 dataBert/
 dataVader/
 
+# Ignore large data files
+data/all_unlabeled_tweets.csv # is 88.32 MB
+data/tweet_data_27_04.csv # is 83.48 MB
+data/data_unlabeled2_05_09.csv # is 107.78 MB
+data/data_unlabeled_05_01.csv # is 107.92 MB
+
+yt/best_model_state.bin # is 413.26 MB
