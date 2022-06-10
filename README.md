@@ -17,9 +17,8 @@ Self-made functions: aardvark.py
    1. vader.ipynb (data files in : dataVader)
 
 4. Sentiment Analysis: BERT
-   1. bertPreprocess.ipynb (data files in : datBert)
-   2. bertExplore.ipynb (data files in : datBert) **
-   3. bertYT.ipynb (data files in : datBert)
+   1. bertPreprocess.ipynb (data files in : dataBert)
+   2. nlpBert/bert.ipynb (data files in : dataBert)
 
 
 # Constaints are
@@ -37,37 +36,27 @@ Q: Is tuned "good enough"?
 -> Hyp: tuned model will fall into fewer traps.
 
 ## Dataset
-labeled dataset - 1200  (L)
-unlabeled dataset - 300.000 (U)
-Realworld data 
+labeled dataset  ~1200
+unlabeled dataset  ~200.000
+Real world data 
 * Afghani refugees
 * political crisis --> overwhelmingly negative language --> difficulty of models to distinguish sentiment
 * language understanding: cerate a model that has a better understandiung of the field
   * word ambiguity
   * extended context understanding
 
-
-
 --
 # Analyser Choices 
  1. ML with transfer learning
-    1. BERT
-    2. Others(ex: GPT3)
+    1. BERT - selected model
+    2. Others(ex: GPT3) - not used
  2. Lexical model, no learning
-    1. Vader
-    2. OThers (ex: TextBLob)
+    1. Vader - selected model
+    2. Others (ex: TextBLob) - not used
  3. Combination
-    1. TL embeddings into ML model
-
-
-# Development
-1. For development Find/create a smaller dataset
-
+    1. TL embeddings into ML model - if time (unlikely)
 
 # Future work
 1. Do it again on another dataset to see if the proposition transfers across similarly structured topics. Teach the system to identify the primary aspect and label on that: 
    1. (sec)bad (sec)bad (sec)bad (primary)good --> positive
-
-
-End result.
 
