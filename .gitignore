@@ -5,7 +5,6 @@ archiveCode/
 archiveData/
 
 # Ignore large data folders
-# NOTE: does not ignore the labeled data setsdata
 dataBert/
 dataVader/
 
