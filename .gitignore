@@ -5,7 +5,7 @@ archiveCode/
 archiveData/
 
 # Ignore large data folders
-dataBert/
+git pulldataBert/
 dataVader/
 
 # Ignore large data files
@@ -17,5 +17,7 @@ data/data_unlabeled2_05_09.csv
 # is 107.78 MB
 data/data_unlabeled_05_01.csv 
 # is 107.92 MB
+dataBert/full_pred_orig_lab_data10June.csv
+# is 103.305 MB
 nlpBert/best_model_state.bin 
 # is 413.26 MB
