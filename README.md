@@ -20,12 +20,16 @@ Self-made functions: aardvark.py
    1. bertPreprocess.ipynb (data files in : dataBert)
    2. nlpBert/bert.ipynb (data files in : dataBert)
 
+## Large Data Files
 
-# Constaints are
-* Sentiment analysis
-* Tweets
 
-# Prove sent.analyser
+# About the Project
+## Goal
+language understanding: create a model that has a better understanding of the domain/field
+  * word ambiguity
+  * extended context understanding
+
+## Prove sent.analyser
 If Untuned --> bad results
 If tuned --> better results
 
@@ -40,13 +44,9 @@ labeled dataset  ~1200
 unlabeled dataset  ~200.000
 Real world data 
 * Afghani refugees
-* political crisis --> overwhelmingly negative language --> difficulty of models to distinguish sentiment
-* language understanding: cerate a model that has a better understandiung of the field
-  * word ambiguity
-  * extended context understanding
+* political crisis --> complex, overwhelmingly negative language --> difficulty of models to distinguish sentiment
 
---
-# Analyser Choices 
+## Analyser Choices 
  1. ML with transfer learning
     1. BERT - selected model
     2. Others(ex: GPT3) - not used
@@ -54,7 +54,7 @@ Real world data
     1. Vader - selected model
     2. Others (ex: TextBLob) - not used
  3. Combination
-    1. TL embeddings into ML model - if time (unlikely)
+    1. TL embeddings into ML model - if time (unlikely) --> future work
 
 # Future work
 1. Do it again on another dataset to see if the proposition transfers across similarly structured topics. Teach the system to identify the primary aspect and label on that: 
