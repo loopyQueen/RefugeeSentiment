@@ -12,6 +12,8 @@ Self-made functions: aardvark.py
    2. dataExploreRows.ipynb (data files in : archiveData)
    3. dataLabeling.ipynb (term dict.txt, data files in : dataLabelSets)
    4. dataCleaningB.ipynb (data files in : archiveData, data)
+   5. dataEmoji.ipynb (data files in : archiveData, data)
+   6. dataSplitBalance
 
 3. Sentiment Analysis: VADER
    1. vader.ipynb (data files in : dataVader)
