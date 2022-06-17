@@ -20,6 +20,8 @@ from nltk.tokenize import TweetTokenizer  # Prefered: tokenizes a text, with ext
 from nltk.stem import WordNetLemmatizer
 from nltk import ngrams
 from sklearn.feature_extraction.text import CountVectorizer
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+
 
 # NOTE TO SELF: a lot of these functions should probably have been written for one tweet, then
 # applied to the dataframe with .apply(): my_df['score_col'] = my_df['text_col'].apply(my_function)
@@ -427,3 +429,27 @@ def subset_gen(df, n, seed=1080):
     # print for progress check
     print("a dataframe and temp_subset_gen.csv of length {} have been created".format(df.shape[0]))
     return df
+
+
+# create the sentiment intensity dictionary object
+sid = SentimentIntensityAnalyzer()  #NOTE: this NEEDS to stay outside of the functions. I will be modifying it.
+
+# creates the sentiment intensity dictionary
+def vader_sid(tweet):
+    return sid.polarity_scores(tweet)
+
+# gets the compound score
+def vader_sent_compound(tweet):
+    scores = sid.polarity_scores(tweet)
+    return scores["compound"]
+
+# gets the classification of the compund score using the authors' suggested cutoff points
+def vader_pred(tweet, pos_cut = 0.05, neg_cut = -0.05):
+    scores = sid.polarity_scores(tweet)
+    comp = scores["compound"]
+    if comp >= pos_cut:
+        return 2
+    elif comp <= neg_cut:
+        return 0
+    else:
+        return 1
