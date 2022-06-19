@@ -12,7 +12,9 @@ Self-made functions: aardvark.py
    2. dataExploreRows.ipynb (data files in : archiveData)
    3. dataLabeling.ipynb (term dict.txt, data files in : dataLabelSets)
    4. dataCleaningB.ipynb (data files in : archiveData, data)
+      - Form large sets, delete unneeded rows, convert labels to numeric.
    5. dataEmoji.ipynb (data files in : archiveData, data)
+      - Understand how emojis are treated, replace emojis with text, create emoji dictionary.
    6. dataSplitBalance
 
 3. Sentiment Analysis: VADER
