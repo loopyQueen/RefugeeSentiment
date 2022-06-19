@@ -1,0 +1,983 @@
+,id_stable,label_sent,y_sent,label_stance,y_stance
+0,22583,plea - happy,2,agree,2
+1,141728,neutral,1,neutral,1
+2,11317,plea - neutral,1,agree,2
+3,177593,fear,0,refugee,3
+4,91649,disgust,0,agree,2
+5,36014,fear,0,agree,2
+6,98952,happy,2,agree,2
+7,157856,plea - sad,0,agree,2
+8,17931,disgust,0,neutral,1
+9,4725,fear,0,agree,2
+10,140587,disgust,0,neutral,1
+11,185343,disgust,0,agree,2
+12,26714,happy,2,agree,2
+13,164093,plea - sad,0,agree,2
+14,127933,happy,2,neutral,1
+15,141496,neutral,1,na,1
+16,101557,hopeful,2,agree,2
+17,106883,happy,2,agree,2
+18,39603,disgust,0,agree,2
+19,103886,disgust,0,na,1
+20,180896,disgust,0,agree,2
+21,106799,happy,2,neutral,1
+22,61753,disgust,0,agree,2
+23,139561,plea - disgust,0,refugee,3
+24,91903,neutral,1,neutral,1
+25,113288,neutral,1,neutral,1
+26,131872,plea - disgust,0,agree,2
+27,66047,plea - fear,0,agree,2
+28,176795,neutral,1,neutral,1
+29,85625,disgust,0,neutral,1
+30,89228,disgust,0,agree,2
+31,68387,neutral,1,na,1
+32,155180,disgust,0,agree,2
+33,171372,disgust,0,neutral,1
+34,138605,neutral,1,neutral,1
+35,176518,fear,0,neutral,1
+36,122595,neutral,1,neutral,1
+37,172537,disgust,0,disagree,0
+38,32376,disgust,0,refugee,3
+39,185132,neutral,1,neutral,1
+40,85518,hopeful,2,agree,2
+41,61708,sad,0,agree,2
+42,12458,plea - happy,2,agree,2
+43,25311,disgust,0,neutral,1
+44,120006,hopeful,2,agree,2
+45,31582,disgust,0,neutral,1
+46,144252,disgust,0,neutral,1
+47,197768,happy,2,na,1
+48,35754,happy,2,agree,2
+49,57102,happy,2,agree,2
+50,170241,angry,0,disagree,0
+51,25545,neutral,1,neutral,1
+52,105376,plea - neutral,1,agree,2
+53,58238,happy,2,na,1
+54,113157,neutral,1,neutral,1
+55,158274,disgust,0,agree,2
+56,112172,hopeful,2,agree,2
+57,11057,disgust,0,agree,2
+58,166131,plea - disgust,0,agree,2
+59,125830,disgust,0,disagree,0
+60,67316,surprise,2,neutral,1
+61,58037,neutral,1,neutral,1
+62,185265,disgust,0,disagree,0
+63,66687,happy,2,agree,2
+64,169289,happy,2,neutral,1
+65,42353,disgust,0,neutral,1
+66,140347,disgust,0,neutral,1
+67,152324,disgust,0,agree,2
+68,35785,neutral,1,neutral,1
+69,177588,disgust,0,neutral,1
+70,153478,happy,2,agree,2
+71,17565,happy,2,agree,2
+72,186385,fear,0,neutral,1
+73,34352,na,1,na,1
+74,100208,disgust,0,neutral,1
+75,19740,happy,2,agree,2
+76,92820,disgust,0,disagree,0
+77,53388,disgust,0,disagree,0
+78,115287,disgust,0,neutral,1
+79,75536,angry,0,neutral,1
+80,165259,plea - fear,0,agree,2
+81,1567,happy,2,neutral,1
+82,174610,fear,0,neutral,1
+83,158652,fear,0,agree,2
+84,48755,disgust,0,disagree,0
+85,180627,plea - neutral,1,agree,2
+86,13089,happy,2,agree,2
+87,79189,happy,2,agree,2
+88,56227,plea - happy,2,agree,2
+89,76186,disgust,0,neutral,1
+90,199485,plea - fear,0,refugee,3
+91,9540,plea - neutral,1,agree,2
+92,114257,neutral,1,neutral,1
+93,3516,plea - sad,0,refugee,3
+94,29391,disgust,0,neutral,1
+95,108000,disgust,0,neutral,1
+96,71773,disgust,0,agree,2
+97,198753,fear,0,agree,2
+98,165576,angry,0,neutral,1
+99,58290,happy,2,na,1
+100,195927,neutral,1,neutral,1
+101,159923,plea - neutral,1,agree,2
+102,42883,neutral,1,neutral,1
+103,51911,disgust,0,agree,2
+104,40877,neutral,1,neutral,1
+105,60403,happy,2,neutral,1
+106,21246,neutral,1,neutral,1
+107,74661,plea - hopeful,2,agree,2
+108,107472,disgust,0,neutral,1
+109,94426,disgust,0,neutral,1
+110,102849,disgust,0,neutral,1
+111,7169,disgust,0,neutral,1
+112,193452,plea - disgust,0,agree,2
+113,138813,plea - disgust,0,neutral,1
+114,70270,neutral,1,neutral,1
+115,148929,neutral,1,na,1
+116,4888,hopeful,2,agree,2
+117,12827,angry,0,disagree,0
+118,155641,plea - disgust,0,agree,2
+119,90590,disgust,0,neutral,1
+120,1039,happy,2,agree,2
+121,71210,fear,0,neutral,1
+122,115570,angry,0,disagree,0
+123,184860,neutral,1,neutral,1
+124,14675,angry,0,agree,2
+125,154667,hopeful,2,neutral,1
+126,60254,disgust,0,disagree,0
+127,152666,hopeful,2,agree,2
+128,74670,sad,0,neutral,1
+129,32451,plea - happy,2,agree,2
+130,170724,disgust,0,neutral,1
+131,145703,na,1,na,1
+132,73388,neutral,1,neutral,1
+133,171666,happy,2,agree,2
+134,135153,angry,0,disagree,0
+135,52820,neutral,1,neutral,1
+136,113724,happy,2,agree,2
+137,97472,fear,0,neutral,1
+138,103301,angry,0,disagree,0
+139,86583,neutral,1,neutral,1
+140,128475,na,1,na,1
+141,115381,neutral,1,neutral,1
+142,191256,fear,0,agree,2
+143,76124,plea - disgust,0,na,1
+144,87258,disgust,0,disagree,0
+145,39950,disgust,0,neutral,1
+146,42209,angry,0,agree,2
+147,135137,na,1,na,1
+148,78059,happy,2,agree,2
+149,39068,happy,2,neutral,1
+150,53364,disgust,0,neutral,1
+151,78178,fear,0,neutral,1
+152,151372,disgust,0,neutral,1
+153,192348,fear,0,agree,2
+154,193229,hopeful,2,neutral,1
+155,26814,plea - fear,0,refugee,3
+156,147707,happy,2,neutral,1
+157,190795,neutral,1,neutral,1
+158,27285,disgust,0,neutral,1
+159,109598,happy,2,agree,2
+160,103609,plea - disgust,0,agree,2
+161,74523,disgust,0,agree,2
+162,90011,fear,0,neutral,1
+163,144913,disgust,0,na,1
+164,99945,plea - neutral,1,agree,2
+165,106935,fear,0,agree,2
+166,7076,disgust,0,disagree,0
+167,195999,plea - neutral,1,agree,2
+168,35964,sad,0,neutral,1
+169,136832,disgust,0,disagree,0
+170,106741,disgust,0,agree,2
+171,200939,disgust,0,agree,2
+172,27271,fear,0,agree,2
+173,138374,disgust,0,neutral,1
+174,91190,disgust,0,neutral,1
+175,131633,disgust,0,agree,2
+176,46494,disgust,0,neutral,1
+177,170314,neutral,1,neutral,1
+178,175854,plea - disgust,0,agree,2
+179,42235,disgust,0,agree,2
+180,67133,disgust,0,agree,2
+181,86126,hopeful,2,agree,2
+182,49006,happy,2,agree,2
+183,29305,plea - neutral,1,agree,2
+184,62595,angry,0,disagree,0
+185,29062,neutral,1,agree,2
+186,167307,neutral,1,neutral,1
+187,111463,disgust,0,neutral,1
+188,21634,plea - neutral,1,agree,2
+189,54327,disgust,0,disagree,0
+190,6989,plea - neutral,1,agree,2
+191,15200,disgust,0,agree,2
+192,22651,plea - hopeful,2,agree,2
+193,84635,disgust,0,neutral,1
+194,102185,na,1,na,1
+195,194806,disgust,0,neutral,1
+196,193862,fear,0,neutral,1
+197,176759,disgust,0,neutral,1
+198,8072,disgust,0,neutral,1
+199,16672,happy,2,na,1
+200,6706,disgust,0,neutral,1
+201,122776,disgust,0,disagree,0
+202,127529,angry,0,disagree,0
+203,40616,disgust,0,neutral,1
+204,188394,neutral,1,neutral,1
+205,63268,disgust,0,neutral,1
+206,44695,neutral,1,neutral,1
+207,200943,angry,0,neutral,1
+208,60036,happy,2,agree,2
+209,73346,happy,2,agree,2
+210,76313,disgust,0,agree,2
+211,198633,happy,2,neutral,1
+212,66561,plea - happy,2,agree,2
+213,8359,fear,0,refugee,3
+214,102829,neutral,1,neutral,1
+215,180747,neutral,1,neutral,1
+216,12512,disgust,0,agree,2
+217,76911,neutral,1,neutral,1
+218,20812,plea - sad,0,refugee,3
+219,51859,disgust,0,agree,2
+220,2147,fear,0,na,1
+221,162551,hopeful,2,agree,2
+222,55500,neutral,1,neutral,1
+223,193200,happy,2,agree,2
+224,96137,hopeful,2,agree,2
+225,149312,hopeful,2,agree,2
+226,92749,sad,0,neutral,1
+227,107341,disgust,0,neutral,1
+228,181938,neutral,1,neutral,1
+229,53156,plea - neutral,1,agree,2
+230,9494,disgust,0,neutral,1
+231,133737,disgust,0,disagree,0
+232,72388,disgust,0,neutral,1
+233,17667,neutral,1,neutral,1
+234,45080,plea - hopeful,2,agree,2
+235,18615,sad,0,agree,2
+236,164790,disgust,0,disagree,0
+237,112442,neutral,1,neutral,1
+238,5199,neutral,1,neutral,1
+239,37112,plea - disgust,0,agree,2
+240,178347,hopeful,2,agree,2
+241,53295,plea - sad,0,refugee,3
+242,80346,disgust,0,neutral,1
+243,40352,happy,2,agree,2
+244,154824,plea - neutral,1,agree,2
+245,64595,angry,0,agree,2
+246,63430,neutral,1,neutral,1
+247,85013,neutral,1,neutral,1
+248,26440,hopeful,2,agree,2
+249,171473,neutral,1,neutral,1
+250,160859,plea - fear,0,agree,2
+251,66074,disgust,0,disagree,0
+252,45472,plea - disgust,0,agree,2
+253,94977,fear,0,neutral,1
+254,94780,plea - neutral,1,agree,2
+255,56935,plea - hopeful,2,agree,2
+256,58510,happy,2,neutral,1
+257,25826,disgust,0,neutral,1
+258,193036,happy,2,agree,2
+259,20675,disgust,0,neutral,1
+260,176872,happy,2,na,1
+261,193500,neutral,1,neutral,1
+262,103367,angry,0,agree,2
+263,159404,disgust,0,neutral,1
+264,149822,happy,2,agree,2
+265,10270,disgust,0,agree,2
+266,168316,sad,0,agree,2
+267,59538,plea - happy,2,agree,2
+268,95517,disgust,0,neutral,1
+269,69061,disgust,0,agree,2
+270,145141,angry,0,disagree,0
+271,172771,neutral,1,neutral,1
+272,147551,neutral,1,neutral,1
+273,7858,disgust,0,neutral,1
+274,45717,angry,0,disagree,0
+275,21364,happy,2,na,1
+276,22193,fear,0,neutral,1
+277,136445,disgust,0,neutral,1
+278,48105,plea - neutral,1,agree,2
+279,9587,na,1,na,1
+280,98249,disgust,0,neutral,1
+281,78781,neutral,1,neutral,1
+282,126183,disgust,0,agree,2
+283,7571,happy,2,na,1
+284,85358,fear,0,disagree,0
+285,198341,na,1,na,1
+286,22174,happy,2,na,1
+287,61860,happy,2,neutral,1
+288,150845,disgust,0,neutral,1
+289,60171,fear,0,neutral,1
+290,110311,disgust,0,agree,2
+291,86466,happy,2,agree,2
+292,138135,sad,0,agree,2
+293,63713,disgust,0,disagree,0
+294,87792,disgust,0,neutral,1
+295,83728,neutral,1,neutral,1
+296,146287,disgust,0,agree,2
+297,146975,plea - disgust,0,agree,2
+298,32655,fear,0,agree,2
+299,201328,neutral,1,agree,2
+300,110484,angry,0,neutral,1
+301,29957,happy,2,agree,2
+302,158437,plea - disgust,0,disagree,0
+303,95316,neutral,1,neutral,1
+304,79258,plea - disgust,0,neutral,1
+305,76883,neutral,1,neutral,1
+306,3979,disgust,0,neutral,1
+307,9859,neutral,1,na,1
+308,112488,happy,2,neutral,1
+309,76026,neutral,1,neutral,1
+310,199822,fear,0,agree,2
+311,121092,happy,2,neutral,1
+312,83219,angry,0,disagree,0
+313,116718,neutral,1,neutral,1
+314,183663,hopeful,2,agree,2
+315,108692,hopeful,2,agree,2
+316,44760,na,1,na,1
+317,137870,neutral,1,na,1
+318,135976,plea - fear,0,refugee,3
+319,102082,neutral,1,agree,2
+320,149301,hopeful,2,agree,2
+321,128734,hopeful,2,agree,2
+322,454,plea - happy,2,agree,2
+323,114708,happy,2,agree,2
+324,190375,happy,2,neutral,1
+325,192907,happy,2,agree,2
+326,167467,angry,0,agree,2
+327,3829,sad,0,agree,2
+328,124439,angry,0,agree,2
+329,197848,happy,2,refugee,3
+330,43871,angry,0,disagree,0
+331,30954,happy,2,neutral,1
+332,107466,plea - fear,0,agree,2
+333,74077,angry,0,neutral,1
+334,175611,disgust,0,agree,2
+335,24855,neutral,1,na,1
+336,18464,happy,2,na,1
+337,11709,disgust,0,neutral,1
+338,46916,plea - neutral,1,agree,2
+339,3753,angry,0,agree,2
+340,188531,disgust,0,neutral,1
+341,56086,disgust,0,agree,2
+342,49517,happy,2,na,1
+343,182348,plea - disgust,0,neutral,1
+344,1283,plea - fear,0,refugee,3
+345,166818,disgust,0,disagree,0
+346,162063,neutral,1,neutral,1
+347,145914,plea - neutral,1,neutral,1
+348,192354,disgust,0,neutral,1
+349,89480,happy,2,agree,2
+350,187818,plea - neutral,1,agree,2
+351,139502,neutral,1,disagree,0
+352,13739,na,1,na,1
+353,153523,plea - fear,0,refugee,3
+354,53024,happy,2,agree,2
+355,109954,na,1,na,1
+356,117954,neutral,1,neutral,1
+357,13847,plea - disgust,0,agree,2
+358,118808,plea - neutral,1,agree,2
+359,67845,neutral,1,neutral,1
+360,162193,disgust,0,neutral,1
+361,52557,plea - neutral,1,agree,2
+362,9888,disgust,0,neutral,1
+363,113468,plea - neutral,1,agree,2
+364,44652,disgust,0,neutral,1
+365,163847,neutral,1,neutral,1
+366,155830,hopeful,2,agree,2
+367,65101,disgust,0,disagree,0
+368,124719,neutral,1,neutral,1
+369,97966,disgust,0,neutral,1
+370,43417,angry,0,disagree,0
+371,96871,disgust,0,agree,2
+372,145219,neutral,1,neutral,1
+373,39099,sad,0,neutral,1
+374,57005,disgust,0,neutral,1
+375,510,fear,0,agree,2
+376,111565,disgust,0,agree,2
+377,122269,neutral,1,neutral,1
+378,8513,happy,2,agree,2
+379,52600,plea - disgust,0,agree,2
+380,67586,disgust,0,neutral,1
+381,7441,plea - disgust,0,disagree,0
+382,74373,happy,2,neutral,1
+383,97130,neutral,1,neutral,1
+384,162958,plea - disgust,0,agree,2
+385,29234,disgust,0,neutral,1
+386,52259,plea - fear,0,agree,2
+387,63364,angry,0,disagree,0
+388,36252,neutral,1,neutral,1
+389,44680,disgust,0,neutral,1
+390,109214,happy,2,agree,2
+391,5604,disgust,0,neutral,1
+392,177329,hopeful,2,neutral,1
+393,186265,hopeful,2,agree,2
+394,55624,happy,2,agree,2
+395,184163,na,1,na,1
+396,197583,disgust,0,neutral,1
+397,82765,disgust,0,agree,2
+398,133345,plea - sad,0,refugee,3
+399,46486,plea - neutral,1,agree,2
+400,177190,plea - disgust,0,refugee,3
+401,102329,neutral,1,neutral,1
+402,188826,neutral,1,neutral,1
+403,12350,happy,2,agree,2
+404,54653,disgust,0,neutral,1
+405,59616,disgust,0,na,1
+406,140411,neutral,1,neutral,1
+407,69580,plea - hopeful,2,agree,2
+408,16193,sad,0,neutral,1
+409,6688,disgust,0,neutral,1
+410,18154,plea - fear,0,agree,2
+411,99735,neutral,1,neutral,1
+412,140241,disgust,0,neutral,1
+413,70937,plea - fear,0,agree,2
+414,163740,plea - disgust,0,agree,2
+415,24334,disgust,0,neutral,1
+416,162911,na,1,na,1
+417,2843,fear,0,agree,2
+418,116266,neutral,1,neutral,1
+419,130331,neutral,1,neutral,1
+420,86135,happy,2,na,1
+421,12820,plea - sad,0,agree,2
+422,42471,plea - neutral,1,agree,2
+423,47459,happy,2,agree,2
+424,60591,na,1,na,1
+425,105724,happy,2,agree,2
+426,81162,fear,0,neutral,1
+427,61342,happy,2,agree,2
+428,141243,neutral,1,neutral,1
+429,30017,plea - fear,0,agree,2
+430,13340,disgust,0,agree,2
+431,55947,happy,2,agree,2
+432,30466,neutral,1,neutral,1
+433,198715,disgust,0,refugee,3
+434,154697,neutral,1,neutral,1
+435,144927,happy,2,agree,2
+436,126898,neutral,1,neutral,1
+437,102907,neutral,1,neutral,1
+438,144450,plea - disgust,0,agree,2
+439,28678,neutral,1,neutral,1
+440,134936,disgust,0,agree,2
+441,3195,plea - neutral,1,agree,2
+442,18479,happy,2,agree,2
+443,38086,fear,0,na,1
+444,30006,disgust,0,neutral,1
+445,95610,angry,0,neutral,1
+446,122948,disgust,0,refugee,3
+447,45973,angry,0,disagree,0
+448,19674,neutral,1,neutral,1
+449,100784,fear,0,neutral,1
+450,146213,happy,2,agree,2
+451,61829,neutral,1,neutral,1
+452,105465,disgust,0,neutral,1
+453,64869,happy,2,neutral,1
+454,5759,disgust,0,neutral,1
+455,112175,neutral,1,neutral,1
+456,131982,disgust,0,disagree,0
+457,39684,disgust,0,disagree,0
+458,31609,plea - disgust,0,refugee - agree,3
+459,167356,angry,0,disagree,0
+460,108133,neutral,1,na,1
+461,1964,hopeful,2,neutral,1
+462,63793,angry,0,disagree,0
+463,12842,hopeful,2,agree,2
+464,124345,angry,0,agree,2
+465,35941,neutral,1,neutral,1
+466,174235,happy,2,agree,2
+467,129494,happy,2,neutral,1
+468,163390,plea - disgust,0,agree,2
+469,50419,fear,0,agree,2
+470,182966,disgust,0,neutral,1
+471,140868,neutral,1,agree,2
+472,123726,neutral,1,agree,2
+473,66774,disgust,0,agree,2
+474,197408,neutral,1,neutral,1
+475,183300,happy,2,agree,2
+476,186823,plea - disgust,0,agree,2
+477,165200,plea - neutral,1,agree,2
+478,196145,fear,0,agree,2
+479,2510,neutral,1,neutral,1
+480,93036,plea - fear,0,neutral,1
+481,168059,fear,0,agree,2
+482,14492,disgust,0,na,1
+483,67344,happy,2,agree,2
+484,41465,hopeful,2,agree,2
+485,95075,disgust,0,neutral,1
+486,64633,happy,2,agree,2
+487,70672,angry,0,na,1
+488,44542,neutral,1,neutral,1
+489,159414,plea - disgust,0,agree,2
+490,112197,happy,2,disagree,0
+491,43733,hopeful,2,agree,2
+492,80246,disgust,0,disagree,0
+493,193617,neutral,1,na,1
+494,124482,neutral,1,agree,2
+495,60493,plea - disgust,0,neutral,1
+496,156260,sad,0,agree,2
+497,158782,disgust,0,agree,2
+498,21468,plea - disgust,0,agree,2
+499,154983,happy,2,neutral,1
+500,99590,disgust,0,disagree,0
+501,94250,disgust,0,disagree,0
+502,78209,neutral,1,neutral,1
+503,95575,neutral,1,neutral,1
+504,45053,neutral,1,neutral,1
+505,110115,neutral,1,neutral,1
+506,139204,happy,2,neutral,1
+507,149596,disgust,0,neutral,1
+508,19605,neutral,1,neutral,1
+509,38475,neutral,1,neutral,1
+510,55720,angry,0,agree,2
+511,122329,disgust,0,agree,2
+512,58896,disgust,0,disagree,0
+513,108581,disgust,0,agree,2
+514,97676,happy,2,agree,2
+515,95865,hopeful,2,agree,2
+516,20024,plea - neutral,1,agree,2
+517,188395,hopeful,2,agree,2
+518,110571,fear,0,neutral,1
+519,121863,neutral,1,neutral,1
+520,98588,neutral,1,neutral,1
+521,752,plea - disgust,0,agree,2
+522,201235,neutral,1,neutral,1
+523,7028,angry,0,disagree,0
+524,187280,neutral,1,agree,2
+525,117334,neutral,1,neutral,1
+526,170353,fear,0,refugee,3
+527,135888,happy,2,agree,2
+528,97319,plea - fear,0,agree,2
+529,141203,disgust,0,neutral,1
+530,39214,angry,0,disagree,0
+531,53449,disgust,0,na,1
+532,108973,happy,2,neutral,1
+533,105818,disgust,0,neutral,1
+534,86242,plea - disgust,0,disagree,0
+535,88561,disgust,0,agree,2
+536,76804,disgust,0,disagree,0
+537,79386,plea - happy,2,agree,2
+538,53958,na,1,na,1
+539,71097,disgust,0,disagree,0
+540,130519,disgust,0,neutral,1
+541,494,plea - disgust,0,agree,2
+542,175671,disgust,0,agree,2
+543,186712,angry,0,disagree,0
+544,99443,disgust,0,agree,2
+545,109218,plea - neutral,1,agree,2
+546,196779,hopeful,2,agree,2
+547,131085,neutral,1,neutral,1
+548,144046,disgust,0,neutral,1
+549,136394,happy,2,agree,2
+550,84462,neutral,1,neutral,1
+551,22320,happy,2,agree,2
+552,110258,hopeful,2,agree,2
+553,188094,plea - disgust,0,neutral,1
+554,106775,disgust,0,neutral,1
+555,96306,angry,0,neutral,1
+556,132698,disgust,0,neutral,1
+557,73964,neutral,1,neutral,1
+558,78842,disgust,0,neutral,1
+559,150539,plea - neutral,1,agree,2
+560,2583,hopeful,2,agree,2
+561,160760,plea - neutral,1,neutral,1
+562,156930,fear,0,agree,2
+563,125502,disgust,0,agree,2
+564,182648,plea - neutral,1,agree,2
+565,64790,neutral,1,neutral,1
+566,82754,disgust,0,disagree,0
+567,109820,happy,2,na,1
+568,31194,hopeful,2,neutral,1
+569,32834,angry,0,neutral,1
+570,36110,neutral,1,neutral,1
+571,79907,plea - fear,0,disagree,0
+572,59580,fear,0,neutral,1
+573,6146,happy,2,neutral,1
+574,103081,disgust,0,disagree,0
+575,190178,neutral,1,neutral,1
+576,50629,hopeful,2,agree,2
+577,29634,happy,2,na,1
+578,147290,plea - disgust,0,agree,2
+579,88018,plea - disgust,0,agree,2
+580,193118,happy,2,na,1
+581,131696,happy,2,neutral,1
+582,92318,neutral,1,neutral,1
+583,1608,happy,2,agree,2
+584,126658,neutral,1,neutral,1
+585,15850,disgust,0,neutral,1
+586,164136,disgust,0,neutral,1
+587,96067,neutral,1,neutral,1
+588,144849,fear,0,agree,2
+589,87106,disgust,0,neutral,1
+590,8687,disgust,0,neutral,1
+591,171012,hopeful,2,agree,2
+592,46848,plea - neutral,1,agree,2
+593,178113,happy,2,neutral,1
+594,91732,disgust,0,disagree,0
+595,111372,neutral,1,neutral,1
+596,92344,plea - hopeful,2,agree,2
+597,15478,disgust,0,neutral,1
+598,29243,neutral,1,neutral,1
+599,15961,neutral,1,neutral,1
+600,118976,plea - neutral,1,agree,2
+601,82723,neutral,1,neutral,1
+602,31694,plea - neutral,1,agree,2
+603,159331,angry,0,neutral,1
+604,110882,neutral,1,na,1
+605,195953,angry,0,neutral,1
+606,7643,disgust,0,na,1
+607,3741,hopeful,2,agree,2
+608,134303,hopeful,2,agree,2
+609,50394,plea - neutral,1,neutral,1
+610,119241,angry,0,disagree,0
+611,121749,disgust,0,neutral,1
+612,43777,sad,0,agree,2
+613,134034,happy,2,agree,2
+614,10533,happy,2,agree,2
+615,25769,disgust,0,neutral,1
+616,29849,fear,0,neutral,1
+617,66669,happy,2,neutral,1
+618,63173,plea - hopeful,2,agree,2
+619,105212,disgust,0,disagree,0
+620,119623,disgust,0,neutral,1
+621,153303,neutral,1,neutral,1
+622,153520,disgust,0,agree,2
+623,9051,happy,2,neutral,1
+624,97310,plea - hopeful,2,agree,2
+625,99238,happy,2,agree,2
+626,27086,hopeful,2,neutral,1
+627,1831,neutral,1,neutral,1
+628,61259,plea - disgust,0,disagree,0
+629,68759,angry,0,agree,2
+630,75745,neutral,1,neutral,1
+631,144025,neutral,1,neutral,1
+632,198102,disgust,0,neutral,1
+633,27703,plea - sad,0,neutral,1
+634,45158,happy,2,agree,2
+635,63535,neutral,1,neutral,1
+636,1190,disgust,0,agree,2
+637,15920,disgust,0,agree,2
+638,47570,plea - fear,0,refugee,3
+639,86458,plea - disgust,0,agree,2
+640,96594,happy,2,agree,2
+641,46187,neutral,1,na,1
+642,173761,plea - neutral,1,agree,2
+643,33189,happy,2,neutral,1
+644,196908,neutral,1,neutral,1
+645,61177,neutral,1,agree,2
+646,177959,happy,2,agree,2
+647,93891,disgust,0,disagree,0
+648,4073,angry,0,neutral,1
+649,197788,neutral,1,neutral,1
+650,16585,disgust,0,disagree,0
+651,167746,happy,2,agree,2
+652,51128,plea - disgust,0,disagree,0
+653,79078,plea - neutral,1,neutral,1
+654,186174,happy,2,na,1
+655,104884,disgust,0,agree,2
+656,180027,angry,0,agree,2
+657,22583,plea - happy,2,agree,2
+658,141728,neutral,1,neutral,1
+659,11317,plea - neutral,1,agree,2
+660,98952,happy,2,agree,2
+661,26714,happy,2,agree,2
+662,127933,happy,2,neutral,1
+663,141496,neutral,1,na,1
+664,101557,hopeful,2,agree,2
+665,106883,happy,2,agree,2
+666,106799,happy,2,neutral,1
+667,91903,neutral,1,neutral,1
+668,113288,neutral,1,neutral,1
+669,176795,neutral,1,neutral,1
+670,68387,neutral,1,na,1
+671,138605,neutral,1,neutral,1
+672,122595,neutral,1,neutral,1
+673,185132,neutral,1,neutral,1
+674,85518,hopeful,2,agree,2
+675,12458,plea - happy,2,agree,2
+676,120006,hopeful,2,agree,2
+677,197768,happy,2,na,1
+678,35754,happy,2,agree,2
+679,57102,happy,2,agree,2
+680,25545,neutral,1,neutral,1
+681,105376,plea - neutral,1,agree,2
+682,58238,happy,2,na,1
+683,113157,neutral,1,neutral,1
+684,112172,hopeful,2,agree,2
+685,67316,surprise,2,neutral,1
+686,58037,neutral,1,neutral,1
+687,66687,happy,2,agree,2
+688,169289,happy,2,neutral,1
+689,35785,neutral,1,neutral,1
+690,153478,happy,2,agree,2
+691,17565,happy,2,agree,2
+692,34352,na,1,na,1
+693,19740,happy,2,agree,2
+694,1567,happy,2,neutral,1
+695,180627,plea - neutral,1,agree,2
+696,13089,happy,2,agree,2
+697,79189,happy,2,agree,2
+698,56227,plea - happy,2,agree,2
+699,9540,plea - neutral,1,agree,2
+700,114257,neutral,1,neutral,1
+701,58290,happy,2,na,1
+702,195927,neutral,1,neutral,1
+703,159923,plea - neutral,1,agree,2
+704,42883,neutral,1,neutral,1
+705,40877,neutral,1,neutral,1
+706,60403,happy,2,neutral,1
+707,21246,neutral,1,neutral,1
+708,74661,plea - hopeful,2,agree,2
+709,70270,neutral,1,neutral,1
+710,148929,neutral,1,na,1
+711,4888,hopeful,2,agree,2
+712,1039,happy,2,agree,2
+713,184860,neutral,1,neutral,1
+714,154667,hopeful,2,neutral,1
+715,152666,hopeful,2,agree,2
+716,32451,plea - happy,2,agree,2
+717,145703,na,1,na,1
+718,73388,neutral,1,neutral,1
+719,171666,happy,2,agree,2
+720,52820,neutral,1,neutral,1
+721,113724,happy,2,agree,2
+722,86583,neutral,1,neutral,1
+723,128475,na,1,na,1
+724,115381,neutral,1,neutral,1
+725,135137,na,1,na,1
+726,78059,happy,2,agree,2
+727,39068,happy,2,neutral,1
+728,193229,hopeful,2,neutral,1
+729,147707,happy,2,neutral,1
+730,190795,neutral,1,neutral,1
+731,109598,happy,2,agree,2
+732,99945,plea - neutral,1,agree,2
+733,195999,plea - neutral,1,agree,2
+734,170314,neutral,1,neutral,1
+735,86126,hopeful,2,agree,2
+736,49006,happy,2,agree,2
+737,29305,plea - neutral,1,agree,2
+738,29062,neutral,1,agree,2
+739,167307,neutral,1,neutral,1
+740,21634,plea - neutral,1,agree,2
+741,6989,plea - neutral,1,agree,2
+742,22651,plea - hopeful,2,agree,2
+743,102185,na,1,na,1
+744,16672,happy,2,na,1
+745,188394,neutral,1,neutral,1
+746,44695,neutral,1,neutral,1
+747,60036,happy,2,agree,2
+748,73346,happy,2,agree,2
+749,198633,happy,2,neutral,1
+750,66561,plea - happy,2,agree,2
+751,102829,neutral,1,neutral,1
+752,180747,neutral,1,neutral,1
+753,76911,neutral,1,neutral,1
+754,162551,hopeful,2,agree,2
+755,55500,neutral,1,neutral,1
+756,193200,happy,2,agree,2
+757,96137,hopeful,2,agree,2
+758,149312,hopeful,2,agree,2
+759,181938,neutral,1,neutral,1
+760,53156,plea - neutral,1,agree,2
+761,17667,neutral,1,neutral,1
+762,45080,plea - hopeful,2,agree,2
+763,112442,neutral,1,neutral,1
+764,5199,neutral,1,neutral,1
+765,178347,hopeful,2,agree,2
+766,40352,happy,2,agree,2
+767,154824,plea - neutral,1,agree,2
+768,63430,neutral,1,neutral,1
+769,85013,neutral,1,neutral,1
+770,26440,hopeful,2,agree,2
+771,171473,neutral,1,neutral,1
+772,94780,plea - neutral,1,agree,2
+773,56935,plea - hopeful,2,agree,2
+774,58510,happy,2,neutral,1
+775,193036,happy,2,agree,2
+776,176872,happy,2,na,1
+777,193500,neutral,1,neutral,1
+778,149822,happy,2,agree,2
+779,59538,plea - happy,2,agree,2
+780,172771,neutral,1,neutral,1
+781,147551,neutral,1,neutral,1
+782,21364,happy,2,na,1
+783,48105,plea - neutral,1,agree,2
+784,9587,na,1,na,1
+785,78781,neutral,1,neutral,1
+786,7571,happy,2,na,1
+787,198341,na,1,na,1
+788,22174,happy,2,na,1
+789,61860,happy,2,neutral,1
+790,86466,happy,2,agree,2
+791,83728,neutral,1,neutral,1
+792,201328,neutral,1,agree,2
+793,29957,happy,2,agree,2
+794,95316,neutral,1,neutral,1
+795,76883,neutral,1,neutral,1
+796,9859,neutral,1,na,1
+797,112488,happy,2,neutral,1
+798,76026,neutral,1,neutral,1
+799,121092,happy,2,neutral,1
+800,116718,neutral,1,neutral,1
+801,183663,hopeful,2,agree,2
+802,108692,hopeful,2,agree,2
+803,44760,na,1,na,1
+804,137870,neutral,1,na,1
+805,102082,neutral,1,agree,2
+806,149301,hopeful,2,agree,2
+807,128734,hopeful,2,agree,2
+808,454,plea - happy,2,agree,2
+809,114708,happy,2,agree,2
+810,190375,happy,2,neutral,1
+811,192907,happy,2,agree,2
+812,197848,happy,2,refugee,3
+813,30954,happy,2,neutral,1
+814,24855,neutral,1,na,1
+815,18464,happy,2,na,1
+816,46916,plea - neutral,1,agree,2
+817,49517,happy,2,na,1
+818,162063,neutral,1,neutral,1
+819,145914,plea - neutral,1,neutral,1
+820,89480,happy,2,agree,2
+821,187818,plea - neutral,1,agree,2
+822,139502,neutral,1,disagree,0
+823,13739,na,1,na,1
+824,53024,happy,2,agree,2
+825,109954,na,1,na,1
+826,117954,neutral,1,neutral,1
+827,118808,plea - neutral,1,agree,2
+828,67845,neutral,1,neutral,1
+829,52557,plea - neutral,1,agree,2
+830,113468,plea - neutral,1,agree,2
+831,163847,neutral,1,neutral,1
+832,155830,hopeful,2,agree,2
+833,124719,neutral,1,neutral,1
+834,145219,neutral,1,neutral,1
+835,122269,neutral,1,neutral,1
+836,8513,happy,2,agree,2
+837,74373,happy,2,neutral,1
+838,97130,neutral,1,neutral,1
+839,36252,neutral,1,neutral,1
+840,109214,happy,2,agree,2
+841,177329,hopeful,2,neutral,1
+842,186265,hopeful,2,agree,2
+843,55624,happy,2,agree,2
+844,184163,na,1,na,1
+845,46486,plea - neutral,1,agree,2
+846,102329,neutral,1,neutral,1
+847,188826,neutral,1,neutral,1
+848,12350,happy,2,agree,2
+849,140411,neutral,1,neutral,1
+850,69580,plea - hopeful,2,agree,2
+851,99735,neutral,1,neutral,1
+852,162911,na,1,na,1
+853,116266,neutral,1,neutral,1
+854,130331,neutral,1,neutral,1
+855,86135,happy,2,na,1
+856,42471,plea - neutral,1,agree,2
+857,47459,happy,2,agree,2
+858,60591,na,1,na,1
+859,105724,happy,2,agree,2
+860,61342,happy,2,agree,2
+861,141243,neutral,1,neutral,1
+862,55947,happy,2,agree,2
+863,30466,neutral,1,neutral,1
+864,154697,neutral,1,neutral,1
+865,144927,happy,2,agree,2
+866,126898,neutral,1,neutral,1
+867,102907,neutral,1,neutral,1
+868,28678,neutral,1,neutral,1
+869,3195,plea - neutral,1,agree,2
+870,18479,happy,2,agree,2
+871,19674,neutral,1,neutral,1
+872,146213,happy,2,agree,2
+873,61829,neutral,1,neutral,1
+874,64869,happy,2,neutral,1
+875,112175,neutral,1,neutral,1
+876,108133,neutral,1,na,1
+877,1964,hopeful,2,neutral,1
+878,12842,hopeful,2,agree,2
+879,35941,neutral,1,neutral,1
+880,174235,happy,2,agree,2
+881,129494,happy,2,neutral,1
+882,140868,neutral,1,agree,2
+883,123726,neutral,1,agree,2
+884,197408,neutral,1,neutral,1
+885,183300,happy,2,agree,2
+886,165200,plea - neutral,1,agree,2
+887,2510,neutral,1,neutral,1
+888,67344,happy,2,agree,2
+889,41465,hopeful,2,agree,2
+890,64633,happy,2,agree,2
+891,44542,neutral,1,neutral,1
+892,112197,happy,2,disagree,0
+893,43733,hopeful,2,agree,2
+894,193617,neutral,1,na,1
+895,124482,neutral,1,agree,2
+896,154983,happy,2,neutral,1
+897,78209,neutral,1,neutral,1
+898,95575,neutral,1,neutral,1
+899,45053,neutral,1,neutral,1
+900,110115,neutral,1,neutral,1
+901,139204,happy,2,neutral,1
+902,19605,neutral,1,neutral,1
+903,38475,neutral,1,neutral,1
+904,97676,happy,2,agree,2
+905,95865,hopeful,2,agree,2
+906,20024,plea - neutral,1,agree,2
+907,188395,hopeful,2,agree,2
+908,121863,neutral,1,neutral,1
+909,98588,neutral,1,neutral,1
+910,201235,neutral,1,neutral,1
+911,187280,neutral,1,agree,2
+912,117334,neutral,1,neutral,1
+913,135888,happy,2,agree,2
+914,108973,happy,2,neutral,1
+915,79386,plea - happy,2,agree,2
+916,53958,na,1,na,1
+917,109218,plea - neutral,1,agree,2
+918,196779,hopeful,2,agree,2
+919,131085,neutral,1,neutral,1
+920,136394,happy,2,agree,2
+921,84462,neutral,1,neutral,1
+922,22320,happy,2,agree,2
+923,110258,hopeful,2,agree,2
+924,73964,neutral,1,neutral,1
+925,150539,plea - neutral,1,agree,2
+926,2583,hopeful,2,agree,2
+927,160760,plea - neutral,1,neutral,1
+928,182648,plea - neutral,1,agree,2
+929,64790,neutral,1,neutral,1
+930,109820,happy,2,na,1
+931,31194,hopeful,2,neutral,1
+932,36110,neutral,1,neutral,1
+933,6146,happy,2,neutral,1
+934,190178,neutral,1,neutral,1
+935,50629,hopeful,2,agree,2
+936,29634,happy,2,na,1
+937,193118,happy,2,na,1
+938,131696,happy,2,neutral,1
+939,92318,neutral,1,neutral,1
+940,1608,happy,2,agree,2
+941,126658,neutral,1,neutral,1
+942,96067,neutral,1,neutral,1
+943,171012,hopeful,2,agree,2
+944,46848,plea - neutral,1,agree,2
+945,178113,happy,2,neutral,1
+946,111372,neutral,1,neutral,1
+947,92344,plea - hopeful,2,agree,2
+948,29243,neutral,1,neutral,1
+949,15961,neutral,1,neutral,1
+950,118976,plea - neutral,1,agree,2
+951,82723,neutral,1,neutral,1
+952,31694,plea - neutral,1,agree,2
+953,110882,neutral,1,na,1
+954,3741,hopeful,2,agree,2
+955,134303,hopeful,2,agree,2
+956,50394,plea - neutral,1,neutral,1
+957,134034,happy,2,agree,2
+958,10533,happy,2,agree,2
+959,66669,happy,2,neutral,1
+960,63173,plea - hopeful,2,agree,2
+961,153303,neutral,1,neutral,1
+962,9051,happy,2,neutral,1
+963,97310,plea - hopeful,2,agree,2
+964,99238,happy,2,agree,2
+965,27086,hopeful,2,neutral,1
+966,1831,neutral,1,neutral,1
+967,75745,neutral,1,neutral,1
+968,144025,neutral,1,neutral,1
+969,45158,happy,2,agree,2
+970,63535,neutral,1,neutral,1
+971,96594,happy,2,agree,2
+972,46187,neutral,1,na,1
+973,173761,plea - neutral,1,agree,2
+974,33189,happy,2,neutral,1
+975,196908,neutral,1,neutral,1
+976,61177,neutral,1,agree,2
+977,177959,happy,2,agree,2
+978,197788,neutral,1,neutral,1
+979,167746,happy,2,agree,2
+980,79078,plea - neutral,1,neutral,1
+981,186174,happy,2,na,1

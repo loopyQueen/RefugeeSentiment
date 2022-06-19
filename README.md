@@ -17,10 +17,13 @@ Self-made functions: aardvark.py
       - Understand how emojis are treated, replace emojis with text, create emoji dictionary.
    6. dataSplitBalance
 
-3. Sentiment Analysis: VADER
+3. Sentiment Analysis: Majority Class Prediction
+   1. baselineModel.ipynb
+
+4. Sentiment Analysis: VADER
    1. vader.ipynb (data files in : dataVader)
 
-4. Sentiment Analysis: BERT
+5. Sentiment Analysis: BERT
    1. bertPreprocess.ipynb (data files in : dataBert)
    2. nlpBert/bert.ipynb (data files in : dataBert)
 
