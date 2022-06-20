@@ -19,6 +19,9 @@ import nltk
 from nltk.tokenize import TweetTokenizer  # Prefered: tokenizes a text, with extra controls
 from nltk.stem import WordNetLemmatizer
 from nltk import ngrams
+from matplotlib import pyplot as plt
+from sklearn.metrics import confusion_matrix, multilabel_confusion_matrix, classification_report
+from sklearn.metrics import f1_score # auc if I get embeddings
 from sklearn.feature_extraction.text import CountVectorizer
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
@@ -453,3 +456,44 @@ def vader_pred(tweet, pos_cut = 0.05, neg_cut = -0.05):
         return 0
     else:
         return 1
+
+def print_model_metrics (y_true, y_pred, labels=[0,1,2]):
+    ## Find the microaverage of the F1 scores for the balseline prediction
+    microF1 = f1_score(y_true=y_true, y_pred=y_pred, average='micro', zero_division='warn')
+    macroF1 = f1_score(y_true=y_true, y_pred=y_pred, average='macro', zero_division='warn')
+
+    ### Print it all out
+    print("Micro- and Macro-Average")
+    print('\tMajority class prediction F-score, micro average: {:04.3f}'.format(microF1))
+    print('\tMajority class prediction F-score, macro average: {:04.3f}'.format(macroF1))
+    print('')
+    print(classification_report(y_true, y_pred, labels=labels, zero_division=0))
+
+def print_conf_matrix (y_true, y_pred, labels=[0,1,2]):
+    matrix = confusion_matrix(y_true=y_true, y_pred=y_pred)
+    print('Confusion matrix:\n', matrix)
+    print()
+    class_matrix = multilabel_confusion_matrix(y_true=y_true, y_pred=y_pred, labels=labels)
+    print('Per-Class Confusion matrix:\n', class_matrix)
+
+    labels = ['Negative', 'Neutral', 'Positive']
+    fig = plt.figure()
+    ax = fig.add_subplot(111)
+    cax = ax.matshow(matrix, cmap=plt.cm.Blues)
+    fig.colorbar(cax)
+    ax.set_xticklabels([''] + labels)
+    ax.set_yticklabels([''] + labels)
+    plt.xlabel('Predicted')
+    plt.ylabel('Expected')
+    plt.show()
+
+
+
+
+
+
+
+
+
+
+
