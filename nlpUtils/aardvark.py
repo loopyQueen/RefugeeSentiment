@@ -20,6 +20,7 @@ from nltk.tokenize import TweetTokenizer  # Prefered: tokenizes a text, with ext
 from nltk.stem import WordNetLemmatizer
 from nltk import ngrams
 from matplotlib import pyplot as plt
+import seaborn as sns
 from sklearn.metrics import confusion_matrix, multilabel_confusion_matrix, classification_report
 from sklearn.metrics import f1_score # auc if I get embeddings
 from sklearn.feature_extraction.text import CountVectorizer
@@ -457,36 +458,74 @@ def vader_pred(tweet, pos_cut = 0.05, neg_cut = -0.05):
     else:
         return 1
 
-def print_model_metrics (y_true, y_pred, labels=[0,1,2]):
+def print_model_metrics (model_name, y_true, y_pred, labels=[0,1,2]):
     ## Find the microaverage of the F1 scores for the balseline prediction
     microF1 = f1_score(y_true=y_true, y_pred=y_pred, average='micro', zero_division='warn')
     macroF1 = f1_score(y_true=y_true, y_pred=y_pred, average='macro', zero_division='warn')
 
     ### Print it all out
-    print("Micro- and Macro-Average")
-    print('\tMajority class prediction F-score, micro average: {:04.3f}'.format(microF1))
-    print('\tMajority class prediction F-score, macro average: {:04.3f}'.format(macroF1))
+    print('{} prediction F-score, macro average: {:04.3f}'.format(model_name, macroF1))
     print('')
     print(classification_report(y_true, y_pred, labels=labels, zero_division=0))
 
-def print_conf_matrix (y_true, y_pred, labels=[0,1,2]):
+def print_conf_matrix (model_name, y_true, y_pred, labels=[0,1,2]):
+    tall_name = model_name + "\n\n"
     matrix = confusion_matrix(y_true=y_true, y_pred=y_pred)
     print('Confusion matrix:\n', matrix)
     print()
     class_matrix = multilabel_confusion_matrix(y_true=y_true, y_pred=y_pred, labels=labels)
     print('Per-Class Confusion matrix:\n', class_matrix)
 
-    labels = ['Negative', 'Neutral', 'Positive']
-    fig = plt.figure()
-    ax = fig.add_subplot(111)
-    cax = ax.matshow(matrix, cmap=plt.cm.Blues)
-    fig.colorbar(cax)
-    ax.set_xticklabels([''] + labels)
-    ax.set_yticklabels([''] + labels)
+
+    # Thanks to: https://matplotlib.org/stable/gallery/images_contours_and_fields/image_annotated_heatmap.html#sphx-glr-gallery-images-contours-and-fields-image-annotated-heatmap-py
+    expected = ["Negative", "Neutral", "Positive"]
+    predicted = ["Negative", "Neutral", "Positive"]
+
+    fig, ax = plt.subplots(figsize=(6, 6))
+    im = ax.imshow(matrix, cmap=plt.cm.Blues)
+    ax.grid(False)
+    fig.colorbar(im)
+
+    # Show all ticks and label them with the respective list entries
+    ax.set_xticks(np.arange(len(predicted)), labels=predicted)
+    ax.set_yticks(np.arange(len(expected)), labels=expected)
+
+    # Rotate the tick labels and set their alignment.
+    plt.setp(ax.get_xticklabels(), rotation=45, ha="right",
+            rotation_mode="anchor")
+
+    # Loop over data dimensions and create text annotations.
+    for i in range(len(expected)):
+        for j in range(len(predicted)):
+            text = ax.text(j, i, matrix[i, j],
+                        ha="center", va="center", color="orange")
+    plt.title(tall_name)
     plt.xlabel('Predicted')
     plt.ylabel('Expected')
+    fig.tight_layout()
     plt.show()
 
+#NOTE: takes df as input with cols for compound score, prediction, and ground truth labels
+def boxplot_results (model_name, df, score_col, y_true_col="y_true_test", pos_threshold=0.05, neg_threshold=-0.05):
+    tall_name = model_name + "/n"
+
+    df.boxplot(by=y_true_col, column=score_col, figsize=(8, 8), labels=["neg", "neu", "pos"])
+    plt.title(tall_name)
+    plt.xlabel('\nSentiment Ground Truth')
+    plt.ylabel('VADER Compound Score')
+
+    plt.axhline(y = pos_threshold, color = 'teal', linestyle = ':', linewidth=2, label="threshold: positive")
+    plt.axhline(y = neg_threshold, color = 'purple', linestyle = ':', linewidth=2, label="threshold: negative")
+
+    plt.suptitle('')
+    plt.figtext(.18, .12, " Negative", bbox=dict(facecolor='white', edgecolor='none'))
+    plt.figtext(.45, .12, " Neutral", bbox=dict(facecolor='white', edgecolor='none'))
+    plt.figtext(.71, .12, " Positive", bbox=dict(facecolor='white', edgecolor='none'))
+
+    plt.legend(bbox_to_anchor = (1.0, 1), loc = 'lower center')
+
+    sns.set_style("white")
+    sns.despine()
 
 
 
