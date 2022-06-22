@@ -27,6 +27,9 @@ from sklearn.metrics import f1_score # auc if I get embeddings
 from sklearn.feature_extraction.text import CountVectorizer
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
+import matplotlib.pyplot as plt
+plt.style.use('fivethirtyeight')
+import seaborn as sns
 
 # NOTE TO SELF: a lot of these functions should probably have been written for one tweet, then
 # applied to the dataframe with .apply(): my_df['score_col'] = my_df['text_col'].apply(my_function)
@@ -442,12 +445,12 @@ sid = SentimentIntensityAnalyzer()  #NOTE: this NEEDS to stay outside of the fun
 # creates the sentiment intensity dictionary
 def vader_sid(tweet):
     return sid.polarity_scores(tweet)
-def vader_sid_update(tweet, pickle_path="data/change_lex.pkl"):
-    a_file = open(pickle_path, "rb")
-    change_lex = pickle.load(a_file)
-    a_file.close()
-    sid.lexicon.update(change_lex)
-    return sid.polarity_scores(tweet)
+# def vader_sid_update(tweet, pickle_path="data/change_lex.pkl"):
+#     a_file = open(pickle_path, "rb")
+#     change_lex = pickle.load(a_file)
+#     a_file.close()
+#     sid.lexicon.update(change_lex)
+#     return sid.polarity_scores(tweet)
 
 # gets the compound score
 def vader_sent_compound(tweet):
