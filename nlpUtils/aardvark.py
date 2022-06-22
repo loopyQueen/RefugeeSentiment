@@ -10,12 +10,13 @@ import pandas as pd
 import numpy as np
 import re
 import regex
+import pickle
 from numpy import random as rand
 import emoji  # https://pypi.org/project/emoji/
 from emosent import get_emoji_sentiment_rank
 import nltk
-# nltk.download('wordnet')
-# nltk.download('omw-1.4')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 from nltk.tokenize import TweetTokenizer  # Prefered: tokenizes a text, with extra controls
 from nltk.stem import WordNetLemmatizer
 from nltk import ngrams
@@ -441,14 +442,41 @@ sid = SentimentIntensityAnalyzer()  #NOTE: this NEEDS to stay outside of the fun
 # creates the sentiment intensity dictionary
 def vader_sid(tweet):
     return sid.polarity_scores(tweet)
+def vader_sid_update(tweet, pickle_path="data/change_lex.pkl"):
+    a_file = open(pickle_path, "rb")
+    change_lex = pickle.load(a_file)
+    a_file.close()
+    sid.lexicon.update(change_lex)
+    return sid.polarity_scores(tweet)
 
 # gets the compound score
 def vader_sent_compound(tweet):
     scores = sid.polarity_scores(tweet)
     return scores["compound"]
+def vader_sent_compound_update(tweet, pickle_path="data/change_lex.pkl"):
+    a_file = open(pickle_path, "rb")
+    change_lex = pickle.load(a_file)
+    a_file.close()
+    sid.lexicon.update(change_lex)
+    scores = sid.polarity_scores(tweet)
+    return scores["compound"]
 
 # gets the classification of the compund score using the authors' suggested cutoff points
 def vader_pred(tweet, pos_cut = 0.05, neg_cut = -0.05):
+    scores = sid.polarity_scores(tweet)
+    comp = scores["compound"]
+    if comp >= pos_cut:
+        return 2
+    elif comp <= neg_cut:
+        return 0
+    else:
+        return 1
+def vader_pred_update(tweet, pickle_path="data/change_lex.pkl", pos_cut = 0.05, neg_cut = -0.05):
+    a_file = open(pickle_path, "rb")
+    change_lex = pickle.load(a_file)
+    a_file.close()
+    sid.lexicon.update(change_lex)
+
     scores = sid.polarity_scores(tweet)
     comp = scores["compound"]
     if comp >= pos_cut:
@@ -507,7 +535,7 @@ def print_conf_matrix (model_name, y_true, y_pred, labels=[0,1,2]):
 
 #NOTE: takes df as input with cols for compound score, prediction, and ground truth labels
 def boxplot_results (model_name, df, score_col, y_true_col="y_true_test", pos_threshold=0.05, neg_threshold=-0.05):
-    tall_name = model_name + "/n"
+    tall_name = model_name + "\n"
 
     df.boxplot(by=y_true_col, column=score_col, figsize=(8, 8), labels=["neg", "neu", "pos"])
     plt.title(tall_name)

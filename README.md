@@ -16,12 +16,18 @@ Self-made functions: aardvark.py
    5. dataEmoji.ipynb (data files in : archiveData, data)
       - Understand how emojis are treated, replace emojis with text, create emoji dictionary.
    6. dataSplitBalance
+      - creates baanced, undersampled, and under- oversampled datasets with train/val/test splits
 
 3. Sentiment Analysis: Majority Class Prediction
    1. baselineModel.ipynb
 
 4. Sentiment Analysis: VADER
-   1. vader.ipynb (data files in : dataVader)
+   1. vaderBase.ipynb (data files in : dataVader)
+      - runs VADER out of the box on x_test["ContentClean"] after changing the emoji to code but *before* updating the lexicon. So VADER will just treat it like unrecognizable text.
+   2. vaderPrep.ipynb
+      - creates the emoji code dictionary, proves update to VADER lexicon works
+      - changes the format of the emoji codes for balanced sets in a way that canbe used by both VADER and BERT
+   3. vaderMod.ipynb
 
 5. Sentiment Analysis: BERT
    1. bertPreprocess.ipynb (data files in : dataBert)
