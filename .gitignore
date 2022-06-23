@@ -19,5 +19,6 @@ data/data_unlabeled_05_01.csv
 # is 107.92 MB
 dataBert/full_pred_orig_lab_data10June.csv
 # is 103.305 MB
+dataBert/full_pred_23June.csv
 nlpBert/best_model_state.bin 
 # is 413.26 MB
