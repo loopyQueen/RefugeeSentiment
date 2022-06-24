@@ -83,8 +83,9 @@ Real world data
     1. TL embeddings into ML model - if time (unlikely) --> future work
 
 # Future work
-1. Do it again on another dataset to see if the proposition transfers across similarly structured topics. Teach the system to identify the primary aspect and label on that: 
+1. Ho does hand-recoding sentiment scores affect performance? 
+2. Do it again on another dataset to see if the proposition transfers across similarly structured topics. Teach the system to identify the primary aspect and label on that: 
    1. (sec)bad (sec)bad (sec)bad (primary)good --> positive
-2. Try the BERT embeddings in machine learning models.
-3. Comparison with stance analysis of the same data.
+3. Try the BERT embeddings in machine learning models.
+4. Comparison with stance analysis of the same data.
 
